@@ -14,5 +14,8 @@
 
 ### Tested on desktop and mobile version
 
+![alt Desktop](figures/desktop.png "Desktop")
+![alt Mobile](figures/mobile.png "Mobile")
+
 Feel free to contribute
 @quoc187

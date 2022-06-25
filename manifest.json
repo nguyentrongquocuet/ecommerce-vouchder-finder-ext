@@ -1,0 +1,33 @@
+{
+  "name": "Giam gia ext",
+  "description": "We all love discounts",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.shopee.vn/*"
+      ],
+      "js": [
+        "content-script.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "shopee/inject.js",
+        "shopee/utils.js",
+        "shopee/script.js",
+        "shopee/styles.css"
+      ],
+      "matches": [
+        "https://*.shopee.vn/*"
+      ]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ]
+}
